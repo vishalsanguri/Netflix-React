@@ -1,0 +1,133 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.login-form{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../../Assests/Images/misc/home-bg.jpg") no-repeat;
+    background-size: cover;
+}
+.form-container{
+    width: 700px;
+    position: relative;
+    background-color: rgba(0, 0, 0, .8);
+}
+.login-fields{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.login-fields input{
+    width:450px ;
+    text-align: center;
+    height: 30px;
+    margin: 10px 0px;
+}
+label{
+    user-select: none;
+    font-size: 1.5vw;
+}
+.button-sing-in-up{
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    
+}
+.para-con{
+    margin-top: 20px;
+    font-size: 1.5vw;
+}
+.span-text{
+    cursor: pointer;
+    font-size: 1.5vw;
+}
+.span-text:hover{
+    color:red ;    
+}
+
+@media screen and (max-width:750px) {
+    .form-container{
+        width: 300px;
+        position: relative;
+        background-color: rgba(0, 0, 0, .8);
+    }
+    .span-text{
+        cursor: pointer;
+        font-size: 4vw;
+    }
+    .button-sing-in-up{
+        background-color: red;
+        padding: 0px 5px;
+        border-radius: 10px;
+        font-weight: 400;
+        
+    }
+    .login-fields input{
+        width:250px ;
+    }
+    .login-fields{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+    .para-con{
+        margin-top: 20px;
+        font-size: 3vw;
+    }
+    label{
+        user-select: none;
+        font-size: 4vw;
+    }
+}
+@media screen and (max-width:300px) {
+    .form-container{
+        width: 250px;
+        position: relative;
+        background-color: rgba(0, 0, 0, .8);
+    }
+    .span-text{
+        cursor: pointer;
+        font-size: 4vw;
+    }
+    label{
+        user-select: none;
+        font-size: 4vw;
+    }
+    .button-sing-in-up{
+        background-color: red;
+        padding: 0px 5px;
+        border-radius: 10px;
+        font-weight: 200;
+        
+    }
+    .login-fields input{
+        width:250px ;
+    }
+    .login-fields{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        font-size: 5vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+    .para-con{
+        margin-top: 20px;
+        font-size: 3.5vw;
+    }
+}

@@ -1,0 +1,96 @@
+.relative-image{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url("../../Assests/Images/misc/wallpaper.jpg") no-repeat;
+    background-size:100% 100%;
+}
+.content-data{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.widthmanager{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.span-user-mail{
+    margin-left: 5px;
+}
+.user-container-data{
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+    color: white;
+}
+.logo-netflix{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.series-film{
+    width: 100%;
+    padding: 20px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.series-section-head{
+    font-size: 2.5vw;
+    font-weight: 900;
+    user-select: none;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.selected-section{
+    font-size: 2.5vw;
+    font-weight: 900;
+    user-select: none;
+    cursor: pointer;
+    margin: 0 20px;
+    text-decoration: underline red;
+}
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .widthmanager{
+        width: 100%;
+        height: 50vh;
+    }
+    .relative-image{
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background: url("../../Assests/Images/misc/wallpaper\ small.jpg") no-repeat;
+        background-size:100% 100%;
+    }
+    .series-section-head{
+        font-size: 20px;
+        font-weight: 900;
+        user-select: none;
+        cursor: pointer;
+        margin: 0 20px;
+    }
+    .selected-section{
+        font-size: 20px;
+        font-weight: 900;
+        user-select: none;
+        cursor: pointer;
+        margin: 0 20px;
+        text-decoration: underline red;
+    }
+}
