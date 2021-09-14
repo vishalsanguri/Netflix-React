@@ -1,4 +1,4 @@
-[a live] ( https://vishalsanguri.github.io/Netflix-React/)
+[a live( https://vishalsanguri.github.io/Netflix-React/)]
 
 
 
