@@ -1,3 +1,3 @@
-[Click To View Live link](https://vishalsanguri.github.io/Netflix-React/)
+[:link:Click To View Live link](https://vishalsanguri.github.io/Netflix-React/)
 
 
